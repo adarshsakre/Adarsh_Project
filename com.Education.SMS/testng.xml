@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="runTestNg.verify_subi_is_displayingTestNG"/>
+      <class name="runTestNg.Edit_StudentTestNg"/>
+      <class name="sms.Subjectrouting.TestNG.Edit_StudentTestNg"/>
+      <class name="sms.Subjectrouting.TestNG.Subjectrouting_EditableTestNG"/>
+      <class name="sms.Subjectrouting.TestNG.verify_subi_is_displayingTestNG"/>
+      <class name="runTestNg.Add_SubjectroutingTestNg"/>
+      <class name="sms.Subjectrouting.TestNG.PettycashTestNgTest1"/>
+      <class name="sms.Subjectrouting.TestNG.Add_SubjectroutingTestNg"/>
+      <class name="runTestNg.Subjectrouting_EditableTestNG"/>
+      <class name="sms.Subjectrouting.TestNG.verify_subjectroutingTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

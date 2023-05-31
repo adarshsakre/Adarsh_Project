@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="smsGenericUtils.ListnerImplementClass"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="sms.Subjectrouting.TestNG.Subjectrouting_EditableTestNG"/>
+      <class name="sms.Subjectrouting.TestNG.verify_subi_is_displayingTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
