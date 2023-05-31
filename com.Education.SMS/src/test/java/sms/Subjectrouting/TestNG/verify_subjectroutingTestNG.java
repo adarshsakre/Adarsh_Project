@@ -26,7 +26,7 @@ import smsGenericUtils.FileUtility;
 import smsGenericUtils.JavaUtility;
 import smsGenericUtils.WebdriverUtility;
 
-public class verify_subjectroutingTestNG extends BaseClass //TC09 //code stored in repo
+public class verify_subjectroutingTestNG extends BaseClass //TC09 //code stored in repo 
 {
 	@Test
 	public void subjectRouting() throws Throwable
@@ -38,7 +38,7 @@ public class verify_subjectroutingTestNG extends BaseClass //TC09 //code stored 
 				
 				//Fetvh the property files
 				String USN = fLib.getPropertyKeyValue("usn");
-				String PWD = fLib.getPropertyKeyValue("pwd");
+				String PWD = fLib.getPropertyKeyValue("pwd");						//push again
 				
 				//Login as Admin with Usn and Pwd and submit
 				LoginPage loginPage = new LoginPage(driver);
