@@ -9,7 +9,6 @@ public class FileUtility
 {
 	public String getPropertyKeyValue(String key) throws Throwable
 	{
-		
 		FileInputStream fileInputStream = new FileInputStream(IpathConstants.propertyFilePath);
 		Properties properties = new Properties();
 		properties.load(fileInputStream);

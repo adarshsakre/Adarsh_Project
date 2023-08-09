@@ -55,7 +55,7 @@ public class ExcelUtility
 		Sheet sheet = workbook.getSheet(SheetName);
 		Row row = sheet.getRow(rowNum);
 		Cell cell = row.getCell(cellNum);
-		DataFormatter dataFormatter = new DataFormatter();
+		DataFormatter dataFormatter = new DataFormatter();  
 		String data = dataFormatter.formatCellValue(cell);
 		return data;
 	}

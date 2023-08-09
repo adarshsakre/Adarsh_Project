@@ -3,14 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
 	  <parameter name="BROWSER" value="chrome"></parameter>
-    <classes>
-      <class name="sms.Subjectrouting.TestNG.Edit_StudentTestNg"/>
+  	   <classes>
+     	 <class name="sms.Subjectrouting.TestNG.Edit_StudentTestNg"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="5" name="TestFox">
+  <test thread-count="5" name="TestFox">
 	  <parameter name="BROWSER" value="Firefox"></parameter>
-    <classes>
-      <class name="sms.Subjectrouting.TestNG.Edit_StudentTestNg"/>
+   		 <classes>
+     		 <class name="sms.Subjectrouting.TestNG.Edit_StudentTestNg"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
